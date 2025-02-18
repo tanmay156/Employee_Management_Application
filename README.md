@@ -51,7 +51,7 @@ Run the table creation scripts mentioned above.
 2. Add the `.jar` file to your project's **classpath**.
 
 ### 3️⃣ **Configure Database Connection**
-Modify `DatabaseManager` class:
+Modify `Connectivity` class:
 ```java
 private static final String URL = "jdbc:mysql://localhost:3306/companydb";
 private static final String USER = "root";
